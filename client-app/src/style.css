@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input-field {
+    @apply w-full flex flex-col my-3;
+}
+.input-field label {
+    @apply text-sm mb-3;
+}
+.input-field select, .input-field input {
+    @apply w-full border p-2 my-3;
+}
