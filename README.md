@@ -6,7 +6,7 @@
 
 ---
 
-## Inicialización & configuración del aplicativo
+## Inicialización & configuración del aplicativo (Server)
 
 Instalación de dependencias (desde máquina host preferiblemente), se omite la carpeta de dependencias en fichero comprimido.
 ```shell
@@ -39,3 +39,11 @@ INSERT INTO campaign (discount, from_at, to_at, is_active)
 VALUES (5, NOW() - INTERVAL + 1 DAY, NOW() + INTERVAL + 1 DAY, 1);
 ```
 
+## Inicialización del cliente WEB
+
+Instalar depencencias, con npm e inicializar servidor local con vite:
+
+```shell
+npm i
+npm run dev
+```
